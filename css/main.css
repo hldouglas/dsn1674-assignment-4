@@ -8,6 +8,8 @@ html {
 h1 {
   color: white;
   text-align: center;
+  margin: 0;
+  padding: 12px 12px 0;
 }
 
 h2, h3 {
@@ -17,6 +19,10 @@ h2, h3 {
 h1, h2, h3 {
   font-family: 'Bevan', cursive;
   font-weight: normal;
+}
+
+p{
+  font-size: 1.11rem;
 }
 
 ol, p, ul, dl, figcaption {
@@ -30,9 +36,14 @@ span, footer, .quote {
 
 .link li {
   list-style-type: none;
-  padding: 0;
   text-align: center;
   display: inline-block;
+}
+
+.link {
+  padding: 0 12px 12px;
+  margin: 0;
+  text-decoration: none;
 }
 
 a {
@@ -83,9 +94,8 @@ dt {
 
 .wiki {
   list-style-type: circle;
-  list-style-position: outside;
   /* top, right, bottom, left */
-  margin: 0px 12px 12px;
+  margin: 0px 12px;
   /* top, right, bottom, left */
   padding: 0px 12px 12px;
 }
@@ -112,4 +122,8 @@ ol li {
 
 body {
   margin: 0;
+}
+
+main {
+  padding: 0 12px;
 }

@@ -1,6 +1,8 @@
 html {
   background-color: linen;
   line-height: 1.5;
+  max-width: 600px;
+  min-width: 320px;
 }
 
 h1, h2, h3 {

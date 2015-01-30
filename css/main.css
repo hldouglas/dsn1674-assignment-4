@@ -27,10 +27,11 @@ span, footer, .quote {
   font-style: italic;
 }
 
-.link {
+.link li {
   list-style-type: none;
   padding: 0;
   text-align: center;
+  display: inline-block;
 }
 
 a {
@@ -81,6 +82,11 @@ dt {
 
 .wiki {
   list-style-type: circle;
+  list-style-position: inside;
+  /* top, right, bottom, left */
+  margin: 0px 12px 12px;
+  /* top, right, bottom, left */
+  padding: 0px 12px 12px;
 }
 
 header, aside {
@@ -90,6 +96,8 @@ header, aside {
 
 aside h2 {
   color: linen;
+  padding: 12px 12px 0px ;
+  margin: 0;
 }
 
 figure {

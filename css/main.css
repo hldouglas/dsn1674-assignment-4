@@ -5,8 +5,15 @@ html {
   min-width: 320px;
 }
 
-h1, h2, h3 {
+h1 {
+  color: white;
+}
+
+h2, h3 {
   color: darkgray;
+}
+
+h1, h2, h3 {
   font-family: 'Bevan', cursive;
 }
 
@@ -72,4 +79,12 @@ dt {
 
 .wiki {
   list-style-type: circle;
+}
+
+header, aside {
+  background-color: darkgray;
+}
+
+aside h2 {
+  color: linen;
 }

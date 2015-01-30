@@ -85,8 +85,14 @@ dt {
 
 header, aside {
   background-color: darkgray;
+  margin: 0;
 }
 
 aside h2 {
   color: linen;
+}
+
+figure {
+  border: 2px solid darkgray;
+  border-radius: 10px;
 }

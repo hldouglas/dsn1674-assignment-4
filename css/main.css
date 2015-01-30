@@ -16,6 +16,7 @@ h2, h3 {
 
 h1, h2, h3 {
   font-family: 'Bevan', cursive;
+  font-weight: normal;
 }
 
 ol, p, ul, dl, figcaption {
@@ -72,7 +73,7 @@ span {
 }
 
 .quote {
-  text-align: center;
+  text-align: left;
   font-size: 1.5rem;
 }
 
@@ -82,7 +83,7 @@ dt {
 
 .wiki {
   list-style-type: circle;
-  list-style-position: inside;
+  list-style-position: outside;
   /* top, right, bottom, left */
   margin: 0px 12px 12px;
   /* top, right, bottom, left */
@@ -103,4 +104,12 @@ aside h2 {
 figure {
   border: 2px solid darkgray;
   border-radius: 10px;
+}
+
+ol li {
+  color: maroon;
+}
+
+body {
+  margin: 0;
 }

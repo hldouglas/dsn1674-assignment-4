@@ -22,7 +22,7 @@ h1, h2, h3 {
 }
 
 p{
-  font-size: 1.11rem;
+  font-size: 1.1rem;
 }
 
 ol, p, ul, dl, figcaption {
@@ -44,6 +44,7 @@ span, footer, .quote {
   padding: 0 12px 12px;
   margin: 0;
   text-decoration: none;
+  text-align: center;
 }
 
 a {
@@ -92,6 +93,10 @@ dt {
   font-weight: bold;
 }
 
+dd {
+  margin: 0;
+}
+
 .wiki {
   list-style-type: circle;
   /* top, right, bottom, left */
@@ -116,8 +121,13 @@ figure {
   border-radius: 10px;
 }
 
-ol li {
-  color: maroon;
+.link a {
+  color: white;
+  background: maroon;
+  border: 10px solid maroon;
+  line-height: 2.5rem;
+  border-radius: 5px;
+  text-decoration: none;
 }
 
 body {
@@ -125,5 +135,5 @@ body {
 }
 
 main {
-  padding: 0 12px;
+  padding: 0 11px;
 }

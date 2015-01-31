@@ -29,7 +29,7 @@ ol, p, ul, dl, figcaption {
   font-family: Trebuchet, sans-serif;
 }
 
-span, footer, .quote {
+span, footer, blockquote {
   font-family: Times, serif;
   font-style: italic;
 }
@@ -69,8 +69,8 @@ figcaption {
   font-size: 0.75rem;
 }
 
-footer {
-  font-size: 0.75rem;
+cite {
+  font-size: 0.9rem;
   text-align: right;
   line-height: 3;
   color: darkgray;
@@ -84,9 +84,10 @@ span {
   color: darkgray;
 }
 
-.quote {
+blockquote {
   text-align: left;
   font-size: 1.5rem;
+  margin: 0 15px;
 }
 
 dt {

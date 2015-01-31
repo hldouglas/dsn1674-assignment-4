@@ -72,10 +72,10 @@ figcaption {
 
 figure {
   margin: 0;
+  padding: 12px 12px 0;
 }
 
 img {
-  margin: 12px 12px 0;
   text-align: center;
   width: 100%;
 }

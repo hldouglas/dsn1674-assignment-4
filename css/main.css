@@ -75,7 +75,7 @@ figure {
 }
 
 img {
-  padding: 12px 12px 0;
+  margin: 12px 12px 0;
   text-align: center;
   max-width: 100%;
 }
@@ -124,7 +124,7 @@ aside h2 {
   margin: 0;
 }
 
-figure {
+div {
   border: 2px solid darkgray;
   border-radius: 10px;
 }

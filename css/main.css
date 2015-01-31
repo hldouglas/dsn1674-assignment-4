@@ -132,8 +132,8 @@ div {
 .link a {
   color: white;
   background: maroon;
-  border: 10px solid maroon;
-  line-height: 2.5rem;
+  border: 11px solid maroon;
+  line-height: 2.65rem;
   border-radius: 5px;
   text-decoration: none;
 }
